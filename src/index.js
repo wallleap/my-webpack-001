@@ -1,4 +1,9 @@
-import { a } from './a.js'
+import axios from 'axios'
+import * as vue from 'vue'
+import React from 'react'
+import ReactDom from 'react-dom'
 
-console.log(a.name)
-console.log(`Hello Webpack`)
+console.log('axios', axios);
+console.log('vue', vue);
+console.log('React', React);
+console.log('ReactDOM', ReactDom);
