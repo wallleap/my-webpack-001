@@ -1,9 +1,6 @@
-import axios from 'axios'
-import * as vue from 'vue'
-import React from 'react'
-import ReactDom from 'react-dom'
+import './style.css'
 
-console.log('axios', axios);
-console.log('vue', vue);
-console.log('React', React);
-console.log('ReactDOM', ReactDom);
+const h1 = document.createElement('h1')
+h1.textContent = "Hello CSS"
+
+document.querySelector('#app').append(h1)
