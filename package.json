@@ -4,11 +4,9 @@
   "description": "My webpack project",
   "private": true,
   "scripts": {
-    "watch": "webpack --watch",
-    "serve": "webpack serve --open",
-    "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "preview": "http-server . -c-1"
+    "serve": "webpack serve -c webpack.config.dev.js --open",
+    "build": "webpack -c webpack.config.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "luwang",
