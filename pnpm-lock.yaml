@@ -21,6 +21,9 @@ devDependencies:
   http-server:
     specifier: 14.1.1
     version: 14.1.1
+  mini-css-extract-plugin:
+    specifier: 2.7.5
+    version: 2.7.5(webpack@5.82.1)
   style-loader:
     specifier: 3.3.2
     version: 3.3.2(webpack@5.82.1)
@@ -1611,6 +1614,16 @@ packages:
   /mimic-fn@2.1.0:
     resolution: {integrity: sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==}
     engines: {node: '>=6'}
+    dev: true
+
+  /mini-css-extract-plugin@2.7.5(webpack@5.82.1):
+    resolution: {integrity: sha512-9HaR++0mlgom81s95vvNjxkg52n2b5s//3ZTI1EtzFb98awsLSivs2LMsVqnQ3ay0PVhqWcGNyDaTE961FOcjQ==}
+    engines: {node: '>= 12.13.0'}
+    peerDependencies:
+      webpack: ^5.0.0
+    dependencies:
+      schema-utils: 4.0.1
+      webpack: 5.82.1(webpack-cli@5.1.1)
     dev: true
 
   /minimalistic-assert@1.0.1:
